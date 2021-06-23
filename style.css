@@ -155,7 +155,12 @@ body {
     border-bottom: 1px solid #ebebeb;
 }
 
-.search-menu a{
+.search-menu img {
+    cursor: pointer;
+
+}
+
+.search-menu a {
     text-decoration: none;
     color: #5F6468;
     font-size: 0.9em;
@@ -170,7 +175,6 @@ body {
     align-self: center;
     padding-right: 0.1em;
     padding-left: 0.9em;
-    cursor: pointer;
 }
 
 .videos {
@@ -216,6 +220,16 @@ body {
     display: flex;
     justify-content: flex-end;
     width: 13%;
+}
+
+.query-results-counter {
+    font-size: 14px;
+    color: #70767A;
+    display: flex;
+    align-items: center;
+    padding-left: 12em;
+    height: 2em;
+    width: 100%;
 }
 
 
