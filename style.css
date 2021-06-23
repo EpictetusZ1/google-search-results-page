@@ -66,7 +66,8 @@ body {
     height: 20px;
     width: 20px;
     align-self: center;
-    padding-left: 0.8em;
+    padding-left: 0.9em;
+    cursor: pointer;
 }
 
 .x-container {
@@ -80,6 +81,7 @@ body {
     display: flex;
     align-items: center;
     padding-right: 1em;
+    cursor: pointer;
 }
 
 .vertical-line {
@@ -103,9 +105,49 @@ body {
     align-self: center;
     height: 1.3em;
     width: auto;
+    cursor: pointer;
 }
 
 .blue-magnify {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
+
+.menu {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 6%;
+    height: auto;
+}
+
+.apps {
+    height: 1.5em;
+    width: auto;
+    border-radius: 50%;
+    margin-right: 1.4em;
+}
+
+.profile-pic {
+    display: flex;
+    height: 2.3em;
+    width: auto;
+    border-radius: 50%;
+    margin-right: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
