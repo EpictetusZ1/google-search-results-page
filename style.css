@@ -267,7 +267,6 @@ body {
 
 
 .results h3 {
-    margin-top: 0.3em;
     font-size: 20px;
 }
 
@@ -291,20 +290,14 @@ body {
 .result-card {
     height: 88vh;
 }
-.result-1 {
-    width: 100%;
-    height: auto;
-}
-
-h2 {
-    font-size: 22px;
-}
 
 .also {
     border-bottom: 1px solid #ecedef;
     margin: 0;
+    color: #202124;
     padding: 10px 0 8px;
     font-weight: normal;
+    font-size: 22px;
 }
 
 .related-1 {
@@ -331,6 +324,11 @@ h2 {
     border-top: 1px solid #ecedef;
 }
 
+.related-last {
+    border-bottom: 1px solid #ecedef;
+    margin-bottom: 10px;
+}
+
 .expand {
     display: inline-flex;
     justify-content: right;
@@ -338,6 +336,17 @@ h2 {
     padding-right: 5px;
     padding-bottom: 8px;
 }
+
+.expand:hover {
+    cursor: pointer;
+}
+
+#related-suggestions {
+    line-height: 28px;
+    font-size: 22px;
+    color: #202124;
+}
+
 
 
 
