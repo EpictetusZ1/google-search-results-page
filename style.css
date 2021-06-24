@@ -291,7 +291,6 @@ body {
 .result-card {
     height: 88vh;
 }
-
 .result-1 {
     width: 100%;
     height: auto;
@@ -304,35 +303,32 @@ h2 {
 .also {
     border-bottom: 1px solid #ecedef;
     margin: 0;
-    padding: 0 0 8px;
+    padding: 10px 0 8px;
     font-weight: normal;
 }
 
-#related-1 {
+.related-1 {
     margin-top: 8px;
-    padding-bottom: 9px;
+}
+
+.related {
+    padding: 9px 0 9px;
     display: flex;
     align-items: center;
 }
 
-#related-1 p {
+.related p {
     display: inline-flex;
     width: 100%;
     font-size: 16px;
     color: #202124;
     align-items: center;
-    align-self: center;
     padding: 0 0 8px;
 }
 
-.related-2-4 {
-    display: flex;
-    width: 100%;
-    font-size: 16px;
-    color: #202124;
+.rel2 {
+    padding-top: 10px;
     border-top: 1px solid #ecedef;
-    align-items: center;
-    align-self: center;
 }
 
 .expand {
