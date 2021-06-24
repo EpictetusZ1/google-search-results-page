@@ -139,7 +139,7 @@ body {
 
 .menu-container {
     display: flex;
-    justify-content: end;
+    justify-content: center;
     width: 100%;
     height: 2.5em;
 }
@@ -149,7 +149,8 @@ body {
     justify-content: flex-start;
     align-self: flex-end;
     align-items: center;
-    padding-left: 9.5em;
+    padding-left: 9.3em;
+    padding-bottom: 0.2em;
     height: 2em;
     width: 100%;
     border-bottom: 1px solid #ebebeb;
@@ -157,14 +158,13 @@ body {
 
 .search-menu img {
     cursor: pointer;
-
 }
 
 .search-menu a {
     text-decoration: none;
     color: #5F6468;
     font-size: 0.9em;
-    margin-right: 0.9em;
+    margin-right: 1.5em;
 }
 
 .magnify-menu {
@@ -218,8 +218,9 @@ body {
 
 .settings-tools {
     display: flex;
-    justify-content: flex-end;
-    width: 13%;
+    justify-content: flex-start;
+    width: 11%;
+    padding-left: 4em;
 }
 
 .query-results-counter {
@@ -227,6 +228,7 @@ body {
     color: #70767A;
     display: flex;
     align-items: center;
+    padding-top: 0.3em;
     padding-left: 12em;
     height: 2em;
     width: 100%;
