@@ -347,7 +347,41 @@ body {
     color: #202124;
 }
 
+.grid-suggest {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 15px;
+    grid-row-gap: 5px;
+}
 
+.suggest {
+    background: #f1f3f4;
+    min-height: 48px;
+    border-radius: 100px;
+    padding: 0 17px;
+    height: 2em;
+    display: flex;
+    justify-content: left;
+}
+
+.suggest a {
+    color: #202124;
+    align-self: center;
+}
+
+.suggest a b {
+    font-weight: bold;
+}
+
+.magnify-related {
+    display: flex;
+    justify-content: flex-start;
+    height: 20px;
+    width: 20px;
+    align-self: center;
+    padding-right: 2em;
+    cursor: pointer;
+}
 
 
 
