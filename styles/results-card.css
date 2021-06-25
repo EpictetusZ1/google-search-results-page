@@ -183,12 +183,14 @@
 
 .chess-players-container {
     display: flex;
+    flex-direction: column;
     height: 30vh;
     width: 100%;
 }
 
 .players-header {
     display: flex;
+    height: 3vh;
     width: 100%;
     margin: 24px 24px 0 1vh;
 }
@@ -201,7 +203,6 @@
 
 .players-header a {
     color: #202124;
-
 }
 
 .view-more {
@@ -227,6 +228,53 @@
     text-decoration: underline;
 }
 
+.players-body {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 9vh;
+    overflow: hidden;
+    margin-left: 4px;
+}
+
+
+.player-container {
+    position: relative;
+    border-radius: 10px;
+    width: 72px;
+    height: 72px;
+    overflow: hidden;
+}
+
+.player-photo {
+    position: absolute;
+    border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    width: auto;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.player-names {
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    height: 5vh;
+}
+
+.name {
+    width: 20%;
+    text-align: center;
+}
+
+.name a {
+    font-size: 14px;
+    color: #202124;
+    font-family: 'Roboto', sans-serif;
+}
 
 
 
