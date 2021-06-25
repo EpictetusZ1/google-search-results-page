@@ -37,4 +37,47 @@
     width: 100%;
 }
 
+.card-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 50%;
+}
+
+.card-heading {
+    width: 50%;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    color: #202124;
+    font-size: 30px;
+    padding-top: 2vh;
+    padding-left: 1vw;
+}
+
+.category-name {
+    width: 100%;
+    color: #70757a;
+    font-size: 14px;
+    padding-top: 0.8vh;
+    padding-left: 1vw;
+}
+
+.share-container {
+    display: flex;
+    justify-content: right;
+    width: 50%;
+    padding-top: 2vh;
+    padding-left: 12vw;
+}
+
+.social-share {
+    height: 36px;
+}
+
 
