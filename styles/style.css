@@ -244,7 +244,7 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 35% 24%;
+    grid-template-columns: 35% 22%;
     grid-column-gap: 105px;
 }
 
