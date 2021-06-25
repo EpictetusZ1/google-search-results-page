@@ -2,6 +2,7 @@
     border: 1px solid #dfe1e5;
     border-radius: 8px;
     min-width: 380px;
+    color: #202124;
 }
 
 .card-image {
@@ -55,6 +56,7 @@
 .card-heading {
     width: 50%;
     font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
     display: flex;
     color: #202124;
     font-size: 30px;
@@ -144,14 +146,15 @@
 
 .additional-item-1 {
     width: 100%;
-    padding-left: 24px;
+    padding-left: 1vh;
     padding-top: 8px;
     padding-bottom: 8px;
+    border-top: 1px solid #ebebeb;
 }
 
 .additional-item-2 {
     width: 100%;
-    padding-left: 24px;
+    padding-left: 1vh;
     padding-top: 8px;
     padding-bottom: 8px;
     border-top: 1px solid #ebebeb;
@@ -160,14 +163,69 @@
 
 .additional-item-3 {
     width: 100%;
-    padding-left: 24px;
+    padding-left: 1vh;
     padding-top: 8px;
     padding-bottom: 8px;
     border-top: 1px solid #ebebeb;
     border-bottom: 1px solid #ebebeb;
 }
 
+.expand-card {
+    display: flex;
+    align-self: center;
+    float: right;
+    padding-right: 20px;
+}
 
+.expand-card:hover {
+    cursor: pointer;
+}
+
+.chess-players-container {
+    display: flex;
+    height: 30vh;
+    width: 100%;
+}
+
+.players-header {
+    display: flex;
+    width: 100%;
+    margin: 24px 24px 0 1vh;
+}
+
+.players-header h3 {
+    font-size: 18px;
+    line-height: 24px;
+    width: 50%;
+}
+
+.players-header a {
+    color: #202124;
+
+}
+
+.view-more {
+    display: inline-flex;
+    align-self: baseline;
+    color: #70757a;
+    width: 30%;
+    text-align: right;
+    line-height: 24px;
+    font-size: 14px;
+    padding-left: 5vw;
+}
+
+.view-more a {
+    color: #70757a;
+}
+
+.chess-players-container a {
+    text-decoration: none;
+}
+
+.chess-players-container a:hover {
+    text-decoration: underline;
+}
 
 
 
