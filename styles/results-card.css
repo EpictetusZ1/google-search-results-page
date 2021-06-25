@@ -1,0 +1,40 @@
+.result-card {
+    border: 1px solid #dfe1e5;
+    border-radius: 8px;
+    min-width: 380px;
+}
+
+.card-image {
+    height: auto;
+    width: auto;
+}
+
+.images-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.top-image-container {
+    height: 150px;
+    width: 50%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    overflow: hidden;
+}
+
+.top-image {
+    width: 100%;
+}
+
+.bottom-image-container {
+    height: 90px;
+    width: 33.33%;
+    overflow: hidden;
+}
+.bottom-image {
+    width: 100%;
+}
+
+
