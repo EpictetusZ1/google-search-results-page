@@ -4,6 +4,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+@media (max-width: 1200px) {
+    .result-card {
+        display: none;
+    }
+}
+
 .top-container {
     display: flex;
     width: 100%;
@@ -237,6 +243,7 @@ body {
 }
 
 .main {
+    display: flex;
     padding-top: 1em;
     margin-left: 10.5em;
     font-family: Arial , sans-serif;
@@ -244,12 +251,13 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 35% 22%;
-    grid-column-gap: 105px;
+    grid-template-columns: 35vw 20vw;
+    grid-row-gap: 20vh;
 }
 
 .results {
     height: 257vh;
+    min-width: 580px;
 }
 
 .result {
@@ -295,6 +303,8 @@ body {
 
 .result-card {
     height: 100vh;
+    position: relative;
+    margin-left: 20vh;
 }
 
 .also {
