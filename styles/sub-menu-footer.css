@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     width: 100%;
     height: 23vh;
+    min-height: 23vh;
     justify-content: flex-start;
     padding: 1em 0 0 1em;
     text-wrap: none;
@@ -25,12 +26,15 @@
 .sub-more {
     font-size: 14px;
     text-align: left;
+    overflow: hidden;
 }
 
 .footer-container {
+    display: block;
     background: #f2f2f2;
     height: 10vh;
     width: 100%;
+    min-width: 680px;
     position: relative;
     overflow: hidden;
 }
@@ -97,4 +101,9 @@
     color: #70757a;
     text-decoration: none;
     margin-right: 25px;
+}
+
+.resources a:hover {
+    cursor: pointer;
+    color: #3c4043;
 }

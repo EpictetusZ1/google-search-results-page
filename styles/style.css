@@ -251,8 +251,9 @@ body {
 }
 
 .results {
-    height: 173vh;
+    height: auto;
     min-width: 580px;
+    margin-bottom: 3em;
 }
 
 .result {

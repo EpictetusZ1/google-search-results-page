@@ -186,15 +186,15 @@
 .chess-players-container {
     display: flex;
     flex-direction: column;
-    height: 30vh;
+    height: 25vh;
     width: 100%;
 }
 
 .players-header {
     display: flex;
-    height: 3vh;
+    height: 2.8vh;
     width: 100%;
-    margin: 24px 24px 10px 1vh;
+    margin: 20px 24px 10px 1vh;
 }
 
 .players-header h3 {
@@ -209,13 +209,13 @@
 
 .view-more {
     display: inline-flex;
-    align-self: baseline;
     color: #70757a;
-    width: 30%;
+    width: 33%;
     text-align: right;
     line-height: 24px;
     font-size: 14px;
     padding-left: 5vw;
+    padding-right: 2px;
 }
 
 .view-more a {
