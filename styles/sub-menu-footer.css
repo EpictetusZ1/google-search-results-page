@@ -52,7 +52,7 @@
 .footer-top {
     display: inline-flex;
     align-items: center;
-    padding-top: 1.2em;
+    padding-top: 12px;
     margin-left: 11em;
     line-height: 1.58;
 }
