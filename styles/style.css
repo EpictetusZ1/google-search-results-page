@@ -231,7 +231,7 @@ body {
     color: #70767A;
     display: flex;
     align-items: center;
-    padding-top: 0.3em;
+    padding-top: 0.5em;
     padding-left: 12em;
     height: 2em;
     width: 100%;
@@ -239,7 +239,7 @@ body {
 
 .main {
     display: flex;
-    padding-top: 1em;
+    padding-top: 0.5em;
     margin-left: 10.5em;
     font-family: Arial , sans-serif;
 }
