@@ -155,9 +155,9 @@ body {
 .search-menu {
     display: flex;
     justify-content: flex-start;
-    align-self: flex-end;
+    position: fixed;
     align-items: center;
-    padding-left: 9.3em;
+    padding-left: 19em;
     padding-bottom: 0.2em;
     height: 2em;
     width: 100%;
