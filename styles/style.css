@@ -47,7 +47,7 @@ body {
 #search-bar {
     display: flex;
     width: 50vh;
-    margin-right: 2em;
+    margin: 0 2em 0 0.5em;
     padding: 0;
     border: none;
     outline: none;
