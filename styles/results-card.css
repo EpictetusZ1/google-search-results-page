@@ -6,6 +6,10 @@
     color: #202124;
 }
 
+.result-card img:hover {
+    cursor: pointer;
+}
+
 .card-image {
     height: auto;
     width: auto;

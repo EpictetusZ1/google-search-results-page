@@ -5,9 +5,8 @@
     height: 200px;
     min-height: 23vh;
     justify-content: flex-start;
-    padding: 1em 0 0 1em;
-    text-wrap: none;
-    overflow: hidden;
+    margin: 0.5em 0 0 1em;
+    /*overflow: hidden;*/
 }
 
 .result-sub-menu p {
@@ -26,7 +25,6 @@
 .sub-more {
     font-size: 14px;
     text-align: left;
-    overflow: hidden;
 }
 
 .footer-container {
@@ -36,7 +34,6 @@
     width: 100%;
     min-width: 680px;
     position: relative;
-    overflow: hidden;
 }
 
 .footer-content-top {
